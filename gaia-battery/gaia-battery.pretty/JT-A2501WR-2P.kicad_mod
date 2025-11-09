@@ -1,0 +1,116 @@
+(footprint "JT-A2501WR-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.296 -5.126 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f1246270-2501-4875-a1a3-7c8bc1de7b4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "JT-A2501WR-2P"
+		(at -7.296 -3.626 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ebbe8e8-293b-4bef-9894-3e65931b5805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "146e91ca-416d-4327-a690-97df05e08e69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdb22e94-299a-4429-bae6-68ef81c71b95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 2.3)
+		(end -2.5 -9.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6de65238-3904-45b7-9265-3b76748fd73a")
+	)
+	(fp_line
+		(start 5 -9.2)
+		(end -2.5 -9.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb1af617-2fcb-41a0-b18b-8ae87f2d56f6")
+	)
+	(fp_line
+		(start 5 2.3)
+		(end 5 -9.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7206c884-15d1-4d78-9fae-68d774f8957b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -7.296 -2.126 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5e0a584d-c3be-4a6f-8737-578dd66b691c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.9 1.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ce7d8328-f6d6-4fa2-ba9f-a50fcd39435b")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.9 1.9)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a8d6fa7-daee-4545-8ad5-fa9c95a6410f")
+	)
+	(embedded_fonts no)
+)
