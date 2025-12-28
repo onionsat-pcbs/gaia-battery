@@ -2650,7 +2650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad45d7b4-5947-4cc5-802e-945440ab8189")
-		(property "Reference" "BTc"
+		(property "Reference" "BTc1"
 			(at 94.6785 88.9 90)
 			(effects
 				(font
@@ -2702,7 +2702,7 @@
 		(instances
 			(project ""
 				(path "/def68c8a-9d0a-421b-b57f-431e13992b76"
-					(reference "BTc")
+					(reference "BTc1")
 					(unit 1)
 				)
 			)
